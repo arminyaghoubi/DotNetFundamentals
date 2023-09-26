@@ -8,23 +8,13 @@
             int seasonNumber = Convert.ToInt32(Console.ReadLine());
 
             Season season = (Season)seasonNumber;
-            string? weatherInformation = null;
-
-            switch (season)
+            string weatherInformation = season switch
             {
-                case Season.Spring:
-                    weatherInformation = "Averages in whole country are between 20 and 24 °C";
-                    break;
-                case Season.Summer:
-                    weatherInformation = "Averages in whole country are between 27 and 40 °C";
-                    break;
-                case Season.Autumn:
-                    weatherInformation = "Averages in whole country are between 10 and 22 °C";
-                    break;
-                case Season.Winter:
-                    weatherInformation = "Averages in whole country are between 0 and 10 °C";
-                    break;
-            }
+                Season.Spring=> "Averages in whole country are between 20 and 24 °C",
+                Season.Summer=> "Averages in whole country are between 27 and 40 °C",
+                Season.Autumn=> "Averages in whole country are between 10 and 22 °C",
+                Season.Winter=> "Averages in whole country are between 0 and 10 °C"
+            };
 
             Console.WriteLine(weatherInformation);
 
