@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerations", "Enumerations\Enumerations.csproj", "{8CADFD1D-95F7-4D76-A9C1-12CE9557B97B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structs", "Structs\Structs.csproj", "{F03D320F-D373-4025-B82F-F78DC9D8DB0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8CADFD1D-95F7-4D76-A9C1-12CE9557B97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CADFD1D-95F7-4D76-A9C1-12CE9557B97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CADFD1D-95F7-4D76-A9C1-12CE9557B97B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03D320F-D373-4025-B82F-F78DC9D8DB0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03D320F-D373-4025-B82F-F78DC9D8DB0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03D320F-D373-4025-B82F-F78DC9D8DB0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03D320F-D373-4025-B82F-F78DC9D8DB0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
