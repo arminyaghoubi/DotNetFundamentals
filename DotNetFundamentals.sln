@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverloadingFunctions", "Ove
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{7C16B325-4781-449A-B34B-C0BF3257EA7C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThrowException", "ThrowException\ThrowException.csproj", "{DD82EBC9-D5A7-4334-9BF8-17265FA3F494}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{7C16B325-4781-449A-B34B-C0BF3257EA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C16B325-4781-449A-B34B-C0BF3257EA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C16B325-4781-449A-B34B-C0BF3257EA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD82EBC9-D5A7-4334-9BF8-17265FA3F494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD82EBC9-D5A7-4334-9BF8-17265FA3F494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD82EBC9-D5A7-4334-9BF8-17265FA3F494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD82EBC9-D5A7-4334-9BF8-17265FA3F494}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
