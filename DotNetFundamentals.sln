@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerations", "Enumerations\Enumerations.csproj", "{8CADFD1D-95F7-4D76-A9C1-12CE9557B97B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enumerations", "Enumerations\Enumerations.csproj", "{8CADFD1D-95F7-4D76-A9C1-12CE9557B97B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structs", "Structs\Structs.csproj", "{F03D320F-D373-4025-B82F-F78DC9D8DB0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structs", "Structs\Structs.csproj", "{F03D320F-D373-4025-B82F-F78DC9D8DB0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{DA1AB32B-5B78-438F-AE03-20B9667ABD86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{DA1AB32B-5B78-438F-AE03-20B9667ABD86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterateArray", "IterateArray\IterateArray.csproj", "{6E76808A-F24D-4065-83BC-F5C3D23F2833}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IterateArray", "IterateArray\IterateArray.csproj", "{6E76808A-F24D-4065-83BC-F5C3D23F2833}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultidimensionalArrays", "MultidimensionalArrays\MultidimensionalArrays.csproj", "{3C71892A-0751-4A12-A702-9FE64251A802}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultidimensionalArrays", "MultidimensionalArrays\MultidimensionalArrays.csproj", "{3C71892A-0751-4A12-A702-9FE64251A802}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayOfArray", "ArrayOfArray\ArrayOfArray.csproj", "{B2F78DCF-9B96-47AB-A3AA-1C199BA09835}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayOfArray", "ArrayOfArray\ArrayOfArray.csproj", "{B2F78DCF-9B96-47AB-A3AA-1C199BA09835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionWithOutRef", "FunctionWithOutRef\FunctionWithOutRef.csproj", "{789F6DAF-8BA4-4A27-AF4A-15E3010094D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{B2F78DCF-9B96-47AB-A3AA-1C199BA09835}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2F78DCF-9B96-47AB-A3AA-1C199BA09835}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2F78DCF-9B96-47AB-A3AA-1C199BA09835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{789F6DAF-8BA4-4A27-AF4A-15E3010094D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{789F6DAF-8BA4-4A27-AF4A-15E3010094D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{789F6DAF-8BA4-4A27-AF4A-15E3010094D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{789F6DAF-8BA4-4A27-AF4A-15E3010094D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
