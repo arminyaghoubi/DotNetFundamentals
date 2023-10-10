@@ -8,7 +8,7 @@
             {
                 string name="Armin";
                 int age = Convert.ToInt32(Console.ReadLine());
-                AgeChacker(age,name);
+                AgeChacker(age,ref name);
             }
             catch (Exception ex)
             {
@@ -20,7 +20,7 @@
             }
         }
 
-        static void AgeChacker(int age,string name)
+        static void AgeChacker(int age,ref string name)
         {
             name += " Yaghoubi";
             if (age < 1)
