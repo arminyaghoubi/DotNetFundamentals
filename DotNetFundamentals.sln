@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThrowException", "ThrowExce
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateRandom", "GenerateRandom\GenerateRandom.csproj", "{2F683EDD-7F4F-4FC2-9355-8768DBA35095}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopWatchSample", "StopWatchSample\StopWatchSample.csproj", "{ACB0E55B-F531-4A8C-8C1E-F4172B827DB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{2F683EDD-7F4F-4FC2-9355-8768DBA35095}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F683EDD-7F4F-4FC2-9355-8768DBA35095}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F683EDD-7F4F-4FC2-9355-8768DBA35095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB0E55B-F531-4A8C-8C1E-F4172B827DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB0E55B-F531-4A8C-8C1E-F4172B827DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB0E55B-F531-4A8C-8C1E-F4172B827DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB0E55B-F531-4A8C-8C1E-F4172B827DB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
