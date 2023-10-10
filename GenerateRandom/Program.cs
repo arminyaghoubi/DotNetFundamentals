@@ -21,6 +21,13 @@
                 Console.WriteLine(item);
             }
 
+            //Seed Value
+            Random random1=new Random(5);
+            Console.WriteLine(random1.Next());
+
+            Random random2 = new Random(5);
+            Console.WriteLine(random2.Next());
+
             Console.ReadKey();
         }
     }
