@@ -6,8 +6,9 @@
         {
             try
             {
+                string name="Armin";
                 int age = Convert.ToInt32(Console.ReadLine());
-                AgeChacker(age);
+                AgeChacker(age,name);
             }
             catch (Exception ex)
             {
@@ -19,8 +20,9 @@
             }
         }
 
-        static void AgeChacker(int age)
+        static void AgeChacker(int age,string name)
         {
+            name += " Yaghoubi";
             if (age < 1)
             {
                 throw new Exception("Age cannot be less than zero");
